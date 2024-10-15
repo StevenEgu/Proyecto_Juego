@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,11 +8,12 @@ using UnityEngine.UI;
 public class CODIGO_PAUSA : MonoBehaviour
 {
     public GameObject ObjetoMenuPauda;
-    public bool Pausa=false;
+    public bool Pausa = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+           
     }
 
     // Update is called once per frame
