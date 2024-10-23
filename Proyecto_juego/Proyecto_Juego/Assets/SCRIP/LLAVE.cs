@@ -13,6 +13,7 @@ public class LLAVE : MonoBehaviour
         {
             ColliderPuerta.gameObject.SetActive(true);
             Destroy(Objetollave); 
+            Destroy(ColliderPuerta);
            
         }
     }
